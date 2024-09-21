@@ -1,0 +1,50 @@
+.logo {
+    max-width: 200px;
+}
+
+
+header {
+   
+    background-image: url(img/top.jpg);
+    background-size: 960px 400;
+    background-repeat: no-repeat;
+    background-position: center;
+    animation-name: slide;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+}
+
+@keyframes slide {
+    0% { background-image: url(img/top.jpg);}
+    25% { background-image: url(img/top.jpg);}
+    50% { background-image: url(img/tins.jpg);}
+    75% { background-image: url(img/baba.png!w700wp);}
+    100% { background-image: url(img/last.webp);}
+
+}
+
+.nav-item {
+    margin-left: 50px;
+}
+
+.nav-link:hover {
+    color:#BABACA;
+}
+
+form {
+    padding: 5px;
+}
+
+form label {
+    font-weight: bolder;
+}
+
+form input:hover, select:hover, textarea:hover{
+    background-color:rgb(185, 184, 184);
+}
+
+form textarea {
+    resize: none;
+}
